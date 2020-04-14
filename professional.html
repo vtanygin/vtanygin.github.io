@@ -49,7 +49,20 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="professional.html">Professional</a></li>
-                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hobbies<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="gardening.html">Gardening</a></li>
+                            <li><a href="#">Miscellanea</a></li>
+                            <li><a href="#">Something else here</a></li>
+
+                            <!-- Use this to separate a new link -->
+
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
 
                 </ul>
 
@@ -59,13 +72,42 @@
 
     </nav>
 
-    <!--<div class="container"> -->
+
 
 
     <div class="jumbotron">
         <div class="container">
-            <h1>Vadim Tanygin</h1>
-            <p>Graduate student in chemistry</p>
+            <h1>Nanoscale chemistry at interfaces</h1>
+            <p>Papers I have contributed to as a researcher</p>
+        </div>
+    </div>
+    <div class="container">
+
+    </div>
+
+    <!----</div> -->
+    <div id="grid" class="container">
+        <div class="row">
+            <div class="col-lg-4 col-lg-4 thumbnail" data-toggle="tooltip" data-placement="bottom" title="Read at ACS Energy Letters"><img src="assets/solarcell_TOC.png" />
+                <a href="https://pubs.acs.org/doi/10.1021/acsenergylett.6b00587">Transparent Ohmic Contacts for Solution-Processed, Ultrathin CdTe Solar Cells</a>
+            </div>
+            <span id="cactuswrapper" data-toggle="modal" data-target="#gardengrid">
+                <!--span wrapper lets us assign both a tooltip and a modal to the image-->
+                <div class="col-lg-4 col-lg-4 thumbnail" id="oxidation" data-toggle="tooltip" data-placement="bottom" title="Submitted to Chemistry of Materials">
+                    <img src="assets/oxidation_TOC.png" class="img-responsive">
+                    <a>
+                        Preparation and Oxygen Sensitivity of a Range of
+                        Noble Metal Nanoparticles (Ir, Pt, and Au)
+                        Protected by a Series of Chalcogen-Dodecane
+                        Ligands (S, Se, and Te)
+                    </a>
+                </div>
+            </span>
+            <div class="col-lg-4 col-lg-4 thumbnail" id="cacti1" data-toggle="tooltip" data-placement="bottom" title="Submitted to ACS Nano"><img src="assets/CESR_TOC.png" alt="">
+                <a>
+                Asymmetries in the Electronic Properties of Spheroidal Metallic Nanoparticles, Revealed by Conduction Electron Spin Resonance  and Surface Plasmon Resonance
+                </a>
+            </div>
         </div>
     </div>
 

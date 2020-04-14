@@ -20,7 +20,6 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="override.css" />
-
     <!-- jQuery-->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -43,7 +42,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Home</a>
+                <a class="navbar-brand" style="" href="index.html">Home</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -64,8 +63,8 @@
                         </ul>
                     </li>
                     <li><a href="contact.html">Contact</a></li>
-                </ul>
 
+                </ul>
 
 
             </div><!-- /.navbar-collapse -->
@@ -73,45 +72,44 @@
 
     </nav>
 
-    <!--<div class="container"> -->
+    <div class="container">
 
+        <h1>Contact information and related links</h1>
 
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Vadim Tanygin</h1>
-            <p>Graduate student in chemistry</p>
-        </div>
-    </div>
+        <h2 class="mt-4"><a href="https://www.linkedin.com/in/vadim-tanygin-06a53a157/">LinkedIn</a></h2>
 
-    <!----</div> -->
-    <div id="grid" class="container">
-        <div class="row">
-            <span id="cactuswrapper" data-toggle="modal" data-target="#gardengrid">
-                <!--span wrapper lets us assign both a tooltip and a modal to the image-->
-                <div class="col-lg-4 col-xs-6 thumbnail" id="cacti1" data-toggle="tooltip" data-placement="bottom" title="Click to see more"><img src="assets/cacti1.JPG" alt=""></div>
-            </span>
-            <div class="col-lg-4 col-xs-6 thumbnail"><img src="assets/cacti2.JPG" alt=""></div>
-            <div class="col-lg-4 col-xs-6 thumbnail"><img src="assets/PtTe_EDS_wide.png" alt=""></div>
-        </div>
+        <h2 class="mt-4"><a href="https://bul1457.wixsite.com/learlab">Lear Laboratory</a></h2>
+
+        <h2 class="mt-4" data-toggle="modal" data-target="#modalform"><a href="#">Email me</a></h2>
+
     </div>
 
     <!-- Garden Modal -->
-    <div class="modal fade" id="gardengrid" role="dialog">
+    <div class="modal fade" tabindex="-1" role="dialog" id="modalform">
         <div class="modal-dialog">
-            <!-- Modal content-->
-            <div id="grid" class="container">
-                <div class="row">
-                    <span id="cactuswrapper" data-toggle="modal" data-target="#myModal">
-                        <!--span wrapper lets us assign both a tooltip and a modal to the image-->
-                        <div class="col-lg-4 col-xs-6 thumbnail" id="cacti1"><img src="assets/cacti1.JPG" alt=""></div>
-                    </span>
-                    <div class="col-lg-4 col-xs-6 thumbnail"><img src="assets/cacti2.JPG" alt=""></div>
-                    <div class="col-lg-4 col-xs-6 thumbnail"><img src="assets/PtTe_EDS_wide.png" alt=""></div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Contact form</h4>
                 </div>
+                <div class="modal-body">
+                    <p>Simply showing my personal gmail would attract spam. So instead...</p>
+                    <p>...this is a placeholder for a form that will feed submissions to a backend, which in turn sends to my personal gmail.</p>
+                    <p>Since Github Pages doesn't support backend stuff, offload this to something like getsimpleform.com </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!----</div> -->
+    <!--<div id="resumecontainer" class="container">
+            <div class='embed-responsive' style='padding-bottom:100%'>
+                <object data='assets/resume.pdf' type='application/pdf'></object>
             </div>
-
-        </div>
-    </div>
+        </div>-->
     <script src="test.js"></script>
 </body>
-    </html>
+</html>
