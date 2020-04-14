@@ -20,9 +20,10 @@
 //Actual code follows. Note that since we put the script tag loading this .js file at the end of the body, we can access all DOM elements...
 //...and we have access to jQuery (since that's in the head). In general, .js files can call on information from other .js files loaded earlier in the HTML document.
 
-$("#cacti1").click(function () {
-    ;
-});
+//activate all tooltips
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
 
-//I'd personally prefer to create a variable storing that cacti1 ID element (var cactusimage), and create a function storing the alert call (cactusalert)...
-//...and then call cactusimage.cactusalert() at the end. Seems easier to keep track of, but that's just me...
+//I'm reusing the same modal, just with different images based on which of the three home image the uses clicks. Is there a way to have a "template" modal that fills in different images
+//based on what the user clicks?

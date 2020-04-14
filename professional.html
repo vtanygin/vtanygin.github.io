@@ -1,10 +1,81 @@
 ﻿<!DOCTYPE html>
+<!-- <html>
+    <head>
+        <title>Bootstrap test</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Привет, мир!</h1>
+            <p>Checking to see if embedded HTML and Bootstrap CSS work properly</p>
+        </div>
+    </body>
+</html>
+-->
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="utf-8">
+    <title>Vadim Tanygin</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- jQuery-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
 
+    <!-- NAVBAR  -->
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="professional.html">Professional</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+
+                </ul>
+
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+
+    </nav>
+
+    <!--<div class="container"> -->
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Vadim Tanygin</h1>
+            <p>Graduate student in chemistry</p>
+        </div>
+    </div>
+
+    <!----</div> -->
+    <div id="grid" class="container">
+        <div class="row">
+            <div class="col-lg-4 col-xs-6 thumbnail" id="cacti1" data-toggle="tooltip" data-placement="bottom" title="cacti!"><img src="assets/cacti1.JPG" alt=""></div> <!-- all caps 'JPG' matters! -->
+            <div class="col-lg-4 col-xs-6 thumbnail"><img src="assets/cacti2.JPG" alt=""></div>
+            <div class="col-lg-4 col-xs-6 thumbnail"><img src="assets/PtTe_EDS_wide.png" alt=""></div>
+        </div>
+    </div>
+    <script src="test.js"></script>
 </body>
 </html>
