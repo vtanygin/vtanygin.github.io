@@ -1,0 +1,19 @@
+﻿.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > .active > a 
+    {
+    color: orange;
+    }
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus 
+    {
+        color: red;
+    }
+
+
