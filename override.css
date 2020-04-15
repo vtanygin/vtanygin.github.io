@@ -28,3 +28,7 @@ img.resize {
 body {
     padding-bottom: 70px;
 }
+
+.fa {
+    font-family: 'FontAwesome' !important;
+}
