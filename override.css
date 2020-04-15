@@ -24,3 +24,7 @@ img.resize {
 .carousel-caption {
     font-size: 40px;
 }
+
+body {
+    padding-bottom: 70px;
+}
