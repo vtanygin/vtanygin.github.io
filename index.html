@@ -1,17 +1,4 @@
 ﻿<!DOCTYPE html>
-<!-- <html>
-    <head>
-        <title>Bootstrap test</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </head>
-    <body>
-        <div class="container">
-            <h1>Привет, мир!</h1>
-            <p>Checking to see if embedded HTML and Bootstrap CSS work properly</p>
-        </div>
-    </body>
-</html>
--->
 <html>
 <head>
     <meta charset="utf-8">
@@ -20,6 +7,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="override.css" />
+    <link rel="stylesheet" href="bootstrap-theme.css">
 
     <!-- jQuery-->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -84,21 +72,22 @@
     </div>
 
     <!----</div> -->
-    <div id="grid" class="container">
-        <div class="row">
-            <div class="col-lg-4 col-xs-6 thumbnail offset-md-2">
-                <a href="assets/resume.pdf"><img src="assets/cacti1_1008.png" alt=""></a>
-                <h2 align="center">View my resume</h2>
+    <!----For class "x,y", x is row, y is column -->
+    <div id="indexlanding" class="container">
+            <div class="col-lg-3 col-xs-6 thumbnail">
+                <a href="assets/resume.pdf"><img src="assets/flask_gif.gif" alt=""></a>
+                <h3 align="center">View my resume and contact info</h3>
             </div>
-            <div class="col-lg-4 col-xs-6 thumbnail">
-                <a href="professional.html"><img src="assets/PtTe_EDS_wide.png" alt=""></a>
-                <h2 align="center">Read about my research</h2>
+            <div id="padding" class="col-xs-6 col-xs-6 thumbnail"></div> 
+            <div class="col-lg-3 col-xs-6 thumbnail">
+                <a href="professional.html"><img src="assets/flask_gif.gif" alt=""></a>
+                <h3 align="center">Read about my research</h3>
             </div>
-            <div class="col-lg-4 col-xs-6 thumbnail">
-                <a href="gardening.html"><img src="assets/cacti1_1008.png" alt=""></a>
-                <h2 align="center">Personal interests and more</h2>
+            <div id="padding" class="col-xs-6 col-xs-6 thumbnail"></div> 
+            <div class="col-lg-3 col-xs-6 thumbnail">
+                <a href="gardening.html"><img src="assets/cactus_gif.gif" alt=""></a>
+                <h3 align="center">Personal interests and more</h3>
             </div>
-        </div>
     </div>
 
     <!-- Garden Modal -->

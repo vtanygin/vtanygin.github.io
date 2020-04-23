@@ -32,3 +32,32 @@ body {
 .fa {
     font-family: 'FontAwesome' !important;
 }
+
+/*.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(assets/cacti1_1008.png);
+    opacity: 0.4;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}*/
+
+#indexlanding {
+    max-width: 50%;
+    max-height: 50%;
+}
+#padding {
+    opacity: 0;
+    width: 50px;
+}
+/*Zero opacity grid cells with width overrides are probably not the best way to do padding in bootstrap, but meh*/
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+.center-text {
+    text-align: center;
+}
