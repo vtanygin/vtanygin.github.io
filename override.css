@@ -17,8 +17,8 @@
     }
 
 img.resize {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 150%;
+    max-height: 150%;
 }
 
 .carousel-caption {
@@ -43,10 +43,6 @@ body {
     color: black;
 }
 
-#indexlanding {
-    max-width: 50%;
-    max-height: 50%;
-}
 #padding {
     opacity: 0;
     width: 50px;
@@ -59,4 +55,10 @@ body {
 }
 .center-text {
     text-align: center;
+}
+
+.col-centered {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
 }
