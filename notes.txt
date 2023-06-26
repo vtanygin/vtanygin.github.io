@@ -1,3 +1,10 @@
 Assorted ideas:
 -Look for website templates with more personality and flair than bootstrap
--
+-r
+
+
+-read up on android studio and the relevant language for dev
+-read up on lemmy and/or kbin APIs
+-https://github.com/LemmyNet/lemmy#libraries
+-https://join-lemmy.org/docs/contributors/04-api.html
+-https://docs.kbin.pub/#introduction
