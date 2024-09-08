@@ -31,6 +31,7 @@ $.each(people, function (index, el) {
     }
 });*/
 //------------------------------------------------------
+//Ligma nuts github, update ur shit thanks
 //Below is with jQuery
 var className = $('div_name').attr('class');
 $(document).ready(function ()
