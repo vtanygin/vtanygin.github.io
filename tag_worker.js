@@ -48,7 +48,7 @@ $(document).ready(function ()
         }
         else {
             //$(".tags").unhide();
-            x.unhide();
+            x.show();
             //x.style.display = "none";
         }
 
