@@ -33,8 +33,20 @@ $.each(people, function (index, el) {
 //------------------------------------------------------
 //Below is with jQuery
 var className = $('div_name').attr('class');
-$(document).ready(function () {
-    $("button").click(function () {
-        $(".tags").hide();
+$(document).ready(function ()
+{
+    var x = document.getElementsByClassName(".tags")
+
+    $("button").click(function ()
+    {
+        if (x.style.display === "block") {
+            //$(".tags").hide();
+            x.hide();
+        }
+        else {
+            //$(".tags").unhide();
+            x.unhide();
+        }
+
     });
 });
