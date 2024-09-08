@@ -36,7 +36,7 @@ $.each(people, function (index, el) {
 var className = $('div_name').attr('class');
 $(document).ready(function ()
 {
-    var x = document.getElementsByClassName(".tags")
+    var x = document.getElementsByClassName("tags")
 
     $("button").click(function ()
     {
