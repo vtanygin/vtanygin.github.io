@@ -40,14 +40,14 @@ $(document).ready(function ()
 
     $("button").click(function ()
     {
-        if (x.is(":visible")){
+        if (true){
             //$(".tags").hide();
             x.hide();
             //x.style.display = "inline";
         }
         else {
             //$(".tags").unhide();
-            x.unhide();
+            //x.unhide();
             //x.style.display = "none";
         }
 
