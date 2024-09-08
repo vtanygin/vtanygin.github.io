@@ -33,3 +33,8 @@ $.each(people, function (index, el) {
 //------------------------------------------------------
 //Below is with jQuery
 var className = $('div_name').attr('class');
+$(document).ready(function () {
+    $("button").click(function () {
+        $(".tags").hide();
+    });
+});
