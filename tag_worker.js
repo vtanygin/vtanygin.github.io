@@ -40,15 +40,15 @@ $(document).ready(function ()
 
     $("button").click(function ()
     {
-        if (x.style.display === "none"){
+        if (x.is(":visible")){
             //$(".tags").hide();
-            //x.hide();
-            x.style.display = "inline";
+            x.hide();
+            //x.style.display = "inline";
         }
         else {
             //$(".tags").unhide();
-            //x.unhide();
-            x.style.display = "none";
+            x.unhide();
+            //x.style.display = "none";
         }
 
     });
