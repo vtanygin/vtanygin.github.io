@@ -46,7 +46,7 @@ $(document).ready(function ()
             x.hide();
             //x.style.display = "inline";
         }
-        else if (x.style.display === "none") {
+        else if (x.style.display === "display: none;") {
             //$(".tags").unhide();
             x.unhide();
             //x.style.display = "none";
