@@ -60,3 +60,6 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+.tags{
+    display:inline
+}
