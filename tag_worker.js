@@ -38,11 +38,13 @@ $(document).ready(function ()
 {
     var y = document.getElementsByClassName("tags")
     var test = ''
+    var arr = Array.from(y)
+    
 
     $("button").click(function ()
     {
         for (let i = 0; i < y.length; i++) {
-            test += String(y[i]) + ' , '
+            test += String(arr[i]) + ' , '
         }
         alert(test);
 
