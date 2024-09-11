@@ -79,11 +79,17 @@ $(document).ready(function ()
         var x = $(".tags")
         var y = $(".blog-post")
 
-        for (let i = 0; i < y.length; i++) {
-            if (y[i].hasClass("politics")) {
-                y[i].fadeOut()
+        y.each(function () {
+            if (this.hasClass("politics")) {
+                this.fadeOut()
             }
-        }
+        })
+
+        //for (let i = 0; i < y.length; i++) {
+           // if (y[i].hasClass("politics")) {
+              //  y[i].fadeOut()
+           // }
+       // }
         //if (y.hasClass("politics")){
         //  y.fadeOut()
         //}
