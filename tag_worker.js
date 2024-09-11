@@ -79,7 +79,7 @@ $(document).ready(function ()
         var x = $(".tags")
         var y = $(".blog-post")
         if (y.hasClass("politics")){
-            y.hide()
+            y.fadeOut()
         }
 
         /*var x = $(".tags")
