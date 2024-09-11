@@ -36,11 +36,15 @@ $.each(people, function (index, el) {
 //var className = $('div_name').attr('class');
 $(document).ready(function ()
 {
-   var y = document.getElementsByClassName("tags")
+    var y = document.getElementsByClassName("tags")
+    var test = ''
 
     $("button").click(function ()
     {
-        alert(y);
+        for (let i = 0; i < y.length; i++) {
+            test += y[i] + ' , '
+        }
+        alert(test);
 
         /*var x = $(".tags")
         if (x.is(':visible')){
