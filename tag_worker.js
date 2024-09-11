@@ -77,10 +77,16 @@ $(document).ready(function ()
        // alert(test);
 
         var x = $(".tags")
-        var y = $(".blog-post-meta")
-        if (y.hasClass("politics")){
-            y.fadeOut()
+        var y = $(".blog-post")
+
+        for (let i = 0; i < y.length; i++) {
+            if (y[i].hasClass("politics")) {
+                y[i].fadeOut()
+            }
         }
+        //if (y.hasClass("politics")){
+        //  y.fadeOut()
+        //}
 
         /*var x = $(".tags")
         if (x.is(':visible')){
