@@ -31,18 +31,16 @@ $.each(people, function (index, el) {
     }
 });*/
 //------------------------------------------------------
-
+//Ligma nuts github, update ur shit thanks
 //Below is with jQuery
-//var className = $('div_name').attr('class');
+var className = $('div_name').attr('class');
 $(document).ready(function ()
 {
-   var y = document.getElementsByClassName("tags")
+   // var x = document.getElementsByClassName("tags")
 
-    $("button").click(function ()
+    /*$("button").click(function ()
     {
-        alert(y);
-
-        /*var x = $(".tags")
+        var x = $(".tags")
         if (x.is(':visible')){
             //$(".tags").hide();
             x.hide();
@@ -52,7 +50,7 @@ $(document).ready(function ()
             //$(".tags").unhide();
             x.show();
             //x.style.display = "none";
-        }*/
+        }
 
-    });
+    });*/
 });
