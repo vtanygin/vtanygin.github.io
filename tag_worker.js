@@ -39,12 +39,17 @@ $(document).ready(function ()
     var y = document.getElementsByClassName("tags")
     var test = ''
     var arr = Array.from(y)
+    var string_arr = []
+
+    for (let i = 0; i < arr.length, i++;) {
+        string_arr[i] = String(arr[i])
+    }
     
 
     $("button").click(function ()
     {
         for (let i = 0; i < y.length; i++) {
-            test += String(arr[i]) + ' , '
+            test += string_arr[i] + ' , '
         }
         alert(test);
 
