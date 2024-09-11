@@ -42,7 +42,7 @@ $(document).ready(function ()
     $("button").click(function ()
     {
         for (let i = 0; i < y.length; i++) {
-            test += y[i] + ' , '
+            test += String(y[i]) + ' , '
         }
         alert(test);
 
