@@ -34,20 +34,53 @@ $.each(people, function (index, el) {
 
 //Below is with jQuery
 //var className = $('div_name').attr('class');
+
+/*pseudocode for the new hiding approach
+
+If we click a tag:
+
+var x = $(".blog-post")     //get all blog post divs
+if (x.hasClass("the tag we clicked")
+    don't do anything
+else
+    x.hide();
+
+Then we append "tag we clicked" to the header and give it reverse functions (if it has the class, x.show(), else do nothing).
+
+Note on jQuery selectors:
+
+$(this).hide() - hides the current element.
+
+$("p").hide() - hides all <p> elements.
+
+$(".test").hide() - hides all elements with class="test".
+
+$("#test").hide() - hides the element with id="test".
+
+*/
+
+
+
 $(document).ready(function ()
 {
-    var y = document.getElementsByClassName("tags");
-    var test = ''
+    //var y = document.getElementsByClassName("tags");
+    //var test = ''
     //var arr = Array.from(y)
 
     
 
     $("button").click(function ()
     {
-        for (let i = 0; i < y.length; i++) {
-            test += y[i].innerHTML + ' , '
+        //for (let i = 0; i < y.length; i++) {
+          //  test += y[i].innerHTML + ' , '
+       // }
+       // alert(test);
+
+        var x = $(".tags")
+        var y = $(".blog-post")
+        if (y.hasClass("politics")){
+            y.hide()
         }
-        alert(test);
 
         /*var x = $(".tags")
         if (x.is(':visible')){
