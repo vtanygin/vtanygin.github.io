@@ -77,7 +77,7 @@ $(document).ready(function ()
        // alert(test);
 
         var x = $(".tags")
-        var y = $(".blog-post")
+        var y = $(".blog-post-meta")
         if (y.hasClass("politics")){
             y.fadeOut()
         }
