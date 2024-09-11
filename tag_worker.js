@@ -36,20 +36,16 @@ $.each(people, function (index, el) {
 //var className = $('div_name').attr('class');
 $(document).ready(function ()
 {
-    var y = document.getElementsByClassName("tags")
+    var y = document.getElementsByClassName("tags");
     var test = ''
-    var arr = Array.from(y)
-    var string_arr = []
+    //var arr = Array.from(y)
 
-    for (let i = 0; i < arr.length, i++;) {
-        string_arr[i] = String(arr[i])
-    }
     
 
     $("button").click(function ()
     {
         for (let i = 0; i < y.length; i++) {
-            test += string_arr[i] + ' , '
+            test += y[i].innerHTML + ' , '
         }
         alert(test);
 
