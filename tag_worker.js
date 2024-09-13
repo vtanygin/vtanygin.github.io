@@ -77,8 +77,8 @@ $(document).ready(function ()
        // alert(test);
 
         var x = $(".tags")
-        var y = $(".books")
-        //var y = $("input[class~='politics']") 
+        //var y = $(".books")
+        var y = $("div[class~='politics']") 
         y.fadeOut()
         //var z = y.toArray()
 
