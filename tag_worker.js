@@ -77,21 +77,21 @@ $(document).ready(function ()
        // alert(test);
 
         var x = $(".tags")
-        var y = $(".blog-post")
-        var z = y.toArray()
+        var y = $(".politics")
+        //var z = y.toArray()
 
-        //y.each(function () {
-          //  if (this.hasClass("politics")) {
-          //      this.fadeOut()
-         //   }
-      //  })
+        y.each(function () {
+            if (true) {
+                this.fadeOut()
+           }
+        })
 
-        for (let i = 0; i < z.length; i++) {
-            alert(String(z.innerHTML))
-            if (z[i].hasClass("politics")) {
-                z[i].fadeOut()
-            }
-        }
+        //for (let i = 0; i < z.length; i++) {
+           // alert(String(z.innerHTML))
+            //if (z[i].hasClass("politics")) {
+              //  z[i].fadeOut()
+           // }
+       // }
         //if (y.hasClass("politics")){
         //  y.fadeOut()
         //}
