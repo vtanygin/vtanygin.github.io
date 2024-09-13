@@ -78,13 +78,14 @@ $(document).ready(function ()
 
         var x = $(".tags")
         var y = $(".politics")
+        y.fadeOut()
         //var z = y.toArray()
 
-        y.each(function () {
-            if (true) {
-                this.fadeOut()
-           }
-        })
+        //y.each(function () {
+           // if (true) {
+              //  this.fadeOut()
+         //  }
+       // })
 
         //for (let i = 0; i < z.length; i++) {
            // alert(String(z.innerHTML))
