@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\django",
+    "\\django\\mysite"
   ],
-  "SelectedNode": "\\override.css",
+  "SelectedNode": "\\tag_worker.js",
   "PreviewInSolutionExplorer": false
 }
