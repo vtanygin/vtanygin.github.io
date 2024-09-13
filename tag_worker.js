@@ -87,6 +87,7 @@ $(document).ready(function ()
       //  })
 
         for (let i = 0; i < z.length; i++) {
+            alert(String(z))
             if (z[i].hasClass("politics")) {
                 z[i].fadeOut()
             }
