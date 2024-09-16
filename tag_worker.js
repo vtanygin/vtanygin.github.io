@@ -78,8 +78,8 @@ $(document).ready(function ()
 
         var x = $(".tags")
         //var y = $(".books")
-        //var y = $("div[class*='books']") 
-        var y = $("div:not([class*='books'][class*=blog-post])") 
+        var y = $("div[class*='blog-post']") 
+        //var y = $("div:not([class*='books'][class*=blog-post])") 
         y.fadeOut()
         //var z = y.toArray()
 
