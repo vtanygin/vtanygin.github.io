@@ -78,8 +78,10 @@ $(document).ready(function ()
 
         var x = $(".tags")
         //var y = $(".books")
-        var y = $("div[class*='blog-post']") 
-        //var y = $("div:not([class*='books'][class*=blog-post])") 
+        //var y = $("div[class*='blog-post']")
+        //var y = $("div[custom!='visible']")
+        //var y = $("div.row div.books")
+        var y = $("div.blog-main div:not(.books)")
         y.fadeOut()
         //var z = y.toArray()
 
@@ -112,4 +114,13 @@ $(document).ready(function ()
         }*/
 
     });
+
+    $("div.tags a").click(function () {
+        //alert(this.text)
+        //var y = $("div.blog-main div:not(.books)")
+        var y = $("div.blog-main div:not(.books)")
+        //var y = $(this)
+        y.fadeOut()
+    });
+
 });
