@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
     "\\django"
   ],
+  "SelectedNode": "\\blog.html",
   "PreviewInSolutionExplorer": false
 }
